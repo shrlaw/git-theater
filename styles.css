@@ -1,0 +1,150 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  color: black;
+  padding: 30px;
+}
+
+h2 {
+  color: #3046C5;
+}
+
+header h2 {
+  color: black;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+}
+
+footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+header {
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #901CAD;
+}
+
+.main {
+  background-color:lightcyan;
+}
+
+.menu {
+  background-image: linear-gradient(to right, lightcyan, lightcyan, lightcyan);
+  width: 80%;;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  
+}
+  
+.section {
+  background-color: yellow;
+  text-decoration-color: black;
+}
+.article {
+  background-color: yellow;
+}
+
+.carousel {
+  border: solid #5637dd;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white;
+}
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white;
+}
+
+.review-section {
+  background: beige;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-indicators li.active {
+  background-color: #333;
+}
+
+.my-button {
+  background-color: red;
+  color: black;
+  padding: 10px;
+}
